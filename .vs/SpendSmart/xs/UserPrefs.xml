@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{44A075AA-F548-483D-8926-DF0806BA296F}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpendSmart/Views/Home/Expenses.cshtml">
+    <Files>
+      <File FileName="SpendSmart/Models/Expense.cs" />
+      <File FileName="SpendSmart/Views/Home/Expenses.cshtml" Line="14" Column="42" />
+      <File FileName="SpendSmart/Views/Home/Index.cshtml" />
+      <File FileName="SpendSmart/Program.cs" />
+      <File FileName="SpendSmart/Controllers/HomeController.cs" />
+      <File FileName="SpendSmart/Views/Home/CreateEditExpense.cshtml" />
+      <File FileName="SpendSmart/Models/SpendSmartDbContext.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SpendSmart" expanded="True">
+            <Node name="SpendSmart" expanded="True">
+              <Node name="Controllers" expanded="True" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SpendSmart PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
