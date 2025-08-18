@@ -554,11 +554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anamarija/Projects/SpendSmart/SpendSmart/SpendSmart.csproj",
+      "projectUniqueName": "/Users/anamarija/Desktop/MyProject/SpendSmart/SpendSmart/SpendSmart.csproj",
       "projectName": "SpendSmart",
-      "projectPath": "/Users/anamarija/Projects/SpendSmart/SpendSmart/SpendSmart.csproj",
+      "projectPath": "/Users/anamarija/Desktop/MyProject/SpendSmart/SpendSmart/SpendSmart.csproj",
       "packagesPath": "/Users/anamarija/.nuget/packages/",
-      "outputPath": "/Users/anamarija/Projects/SpendSmart/SpendSmart/obj/",
+      "outputPath": "/Users/anamarija/Desktop/MyProject/SpendSmart/SpendSmart/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/anamarija/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["Message"]
+    </div>
+}
+
+<div class="welcome-section">
+    <h1>Welcome to <span class="text-primary">Luminé</span></h1>
+    <p>Write your mail and get <b>15% discount</b>!</p>
+
+    <form method="post" asp-action="Subscribe">
+        <div class="input-group mt-3 w-50 mx-auto">
+            <input type="email" name="email" class="form-control" placeholder="Write your email" required />
+            <button type="submit">Get discount</button>
+        </div>
+    </form>
+</div>
+
+
+
+<!--<
+    div class="text-center p-5 bg-light">
+    <h1 class="mb-3">Добредојде во <span class="text-primary">Luminé</span></h1>
+    <p>Регистрирај се и добиј <b>15% попуст</b> на следната нарачка!</p>
+
+    <form method="post" asp-action="Subscribe">
+        <div class="input-group mt-3 w-50 mx-auto">
+            <input type="email" name="email" class="form-control" placeholder="Внеси го твојот емаил" required />
+            <button type="submit" class="btn btn-primary">Прими попуст</button>
+        </div>
+    </form>
+</div>
+
+    <form asp-action="Subscribe" method="post">
+    <input type="email" name="email" class="form-control" placeholder="Enter your email" required />
+    <button type="submit" class="btn btn-primary mt-2">Get 15% Off</button>
+</form>
+   -->

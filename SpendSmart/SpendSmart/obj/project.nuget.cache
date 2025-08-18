@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rvtafYm/M+utgZ+rT/FdkZQtxAWi25bTsyUQ0qOS5wk9FTSdRE3I6DBxB6e6tXgSGm4y1fdCbiIte6uWinK1Hg==",
+  "dgSpecHash": "evQssWASXtrJK6eNAdxi5AUHx4UdSCJAeZ72/QHUceirsXpK9Nac/Wik4giiGCQ4iTMkXTor0kT3QMZ+FIGU3w==",
   "success": true,
-  "projectFilePath": "/Users/anamarija/Projects/SpendSmart/SpendSmart/SpendSmart.csproj",
+  "projectFilePath": "/Users/anamarija/Desktop/MyProject/SpendSmart/SpendSmart/SpendSmart.csproj",
   "expectedPackageFiles": [
     "/Users/anamarija/.nuget/packages/microsoft.entityframeworkcore/7.0.20/microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
     "/Users/anamarija/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.20/microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",
