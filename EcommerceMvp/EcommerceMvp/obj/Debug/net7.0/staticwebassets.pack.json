@@ -5,16 +5,212 @@
       "PackagePath": "staticwebassets/EcommerceMvp.bundle.scp.css"
     },
     {
-      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/cleansinggel.jpg",
-      "PackagePath": "staticwebassets/Images/cleansinggel.jpg"
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare1.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare1.jpg"
     },
     {
-      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/facecream.jpg",
-      "PackagePath": "staticwebassets/Images/facecream.jpg"
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare10.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare10.jpg"
     },
     {
-      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/serum.jpg",
-      "PackagePath": "staticwebassets/Images/serum.jpg"
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare11.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare11.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare12.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare12.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare13.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare13.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare14.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare14.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare15.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare15.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare16.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare16.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare17.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare17.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare18.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare18.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare19.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare19.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare2.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare2.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare20.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare20.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare21.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare21.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare22.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare22.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare23.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare23.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare24.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare24.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare3.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare3.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare4.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare4.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare5.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare5.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare6.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare6.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare7.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare7.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare8.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare8.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/bodycare9.jpg",
+      "PackagePath": "staticwebassets/Images/bodycare9.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/pozadina.jpg",
+      "PackagePath": "staticwebassets/Images/pozadina.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/produkt1.jpg",
+      "PackagePath": "staticwebassets/Images/produkt1.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/produkt2.jpg",
+      "PackagePath": "staticwebassets/Images/produkt2.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/produkt3.jpg",
+      "PackagePath": "staticwebassets/Images/produkt3.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare1.jpg",
+      "PackagePath": "staticwebassets/Images/skincare1.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare10.jpg",
+      "PackagePath": "staticwebassets/Images/skincare10.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare11.jpg",
+      "PackagePath": "staticwebassets/Images/skincare11.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare12.jpg",
+      "PackagePath": "staticwebassets/Images/skincare12.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare13.jpg",
+      "PackagePath": "staticwebassets/Images/skincare13.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare14.jpg",
+      "PackagePath": "staticwebassets/Images/skincare14.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare15.jpg",
+      "PackagePath": "staticwebassets/Images/skincare15.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare16.jpg",
+      "PackagePath": "staticwebassets/Images/skincare16.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare17.jpg",
+      "PackagePath": "staticwebassets/Images/skincare17.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare18.jpg",
+      "PackagePath": "staticwebassets/Images/skincare18.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare19.jpg",
+      "PackagePath": "staticwebassets/Images/skincare19.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare2.jpg",
+      "PackagePath": "staticwebassets/Images/skincare2.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare20.jpg",
+      "PackagePath": "staticwebassets/Images/skincare20.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare21.jpg",
+      "PackagePath": "staticwebassets/Images/skincare21.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare22.jpg",
+      "PackagePath": "staticwebassets/Images/skincare22.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare23.jpg",
+      "PackagePath": "staticwebassets/Images/skincare23.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare24.jpg",
+      "PackagePath": "staticwebassets/Images/skincare24.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare3.jpg",
+      "PackagePath": "staticwebassets/Images/skincare3.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare4.jpg",
+      "PackagePath": "staticwebassets/Images/skincare4.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare5.jpg",
+      "PackagePath": "staticwebassets/Images/skincare5.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare6.jpg",
+      "PackagePath": "staticwebassets/Images/skincare6.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare7.jpg",
+      "PackagePath": "staticwebassets/Images/skincare7.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare8.jpg",
+      "PackagePath": "staticwebassets/Images/skincare8.jpg"
+    },
+    {
+      "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/Images/skincare9.jpg",
+      "PackagePath": "staticwebassets/Images/skincare9.jpg"
     },
     {
       "Id": "/Users/anamarija/Desktop/MyProject/EcommerceMvp/EcommerceMvp/wwwroot/css/site.css",

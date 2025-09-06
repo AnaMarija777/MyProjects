@@ -20,7 +20,7 @@ public class HomeController : Controller
     }
 
     //od tuka
-    [HttpPost]   // ← ова е важно
+    [HttpPost]   
     public IActionResult Subscribe(string email)
     {
         if (!string.IsNullOrEmpty(email))
@@ -45,6 +45,15 @@ public class HomeController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+
+
+
+        IActionResult Index()
+        {
+            ViewData["ActivePage"] = "Home";
+            return View();
+        }
+
     }
 }
 

@@ -3,24 +3,31 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="EcommerceMvp/wwwroot/css/site.css">
     <Files>
-      <File FileName="EcommerceMvp/Models/Product.cs" Line="10" Column="58" />
-      <File FileName="EcommerceMvp/Controllers/ProductController.cs" Line="18" Column="101" />
-      <File FileName="EcommerceMvp/Views/Products/Index.cshtml" Line="9" Column="29" />
-      <File FileName="EcommerceMvp/Views/Shared/_Layout.cshtml" Line="4" Column="1" />
-      <File FileName="EcommerceMvp/Views/Home/Index.cshtml" Line="20" Column="47" />
-      <File FileName="EcommerceMvp/Controllers/HomeController.cs" Line="52" Column="1" />
-      <File FileName="EcommerceMvp/wwwroot/css/site.css" Line="85" Column="1" />
+      <File FileName="EcommerceMvp/Views/Products/Index.cshtml" Line="41" Column="1" />
+      <File FileName="EcommerceMvp/Views/Account/Register.cshtml" Line="1" Column="3" />
+      <File FileName="EcommerceMvp/Helpers/SessionExtensions.cs" Line="17" Column="1" />
+      <File FileName="EcommerceMvp/Program.cs" Line="24" Column="18" />
+      <File FileName="EcommerceMvp/Controllers/CartController.cs" Line="33" Column="42" />
+      <File FileName="EcommerceMvp/Controllers/AccountController.cs" Line="1" Column="1" />
+      <File FileName="EcommerceMvp/Views/Home/Index.cshtml" Line="88" Column="1" />
+      <File FileName="EcommerceMvp/Views/Account/Login.cshtml" Line="1" Column="1" />
+      <File FileName="EcommerceMvp/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="EcommerceMvp/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="EcommerceMvp/wwwroot/css/site.css" Line="81" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EcommerceMvp" expanded="True">
             <Node name="EcommerceMvp">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Cart" expanded="True" />
                 <Node name="Home" expanded="True" />
+                <Node name="Products" expanded="True" />
               </Node>
-              <Node name="wwwroot">
+              <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True">
                   <Node name="site.css" selected="True" />
                 </Node>

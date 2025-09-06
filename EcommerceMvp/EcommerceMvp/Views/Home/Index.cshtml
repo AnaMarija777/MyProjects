@@ -3,42 +3,85 @@
 }
 
 
-@if (TempData["Message"] != null)
-{
-    <div class="alert alert-success text-center">
-        @TempData["Message"]
+
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>Care for your skin<br />Care for your beauty</h1>
+        <a href="/Products" class="shop-btn">Shop Now</a>
     </div>
-}
-
-<div class="welcome-section">
-    <h1>Welcome to <span class="text-primary">Luminé</span></h1>
-    <p>Write your mail and get <b>15% discount</b>!</p>
-
-    <form method="post" asp-action="Subscribe">
-        <div class="input-group mt-3 w-50 mx-auto">
-            <input type="email" name="email" class="form-control" placeholder="Write your email" required />
-            <button type="submit">Get discount</button>
-        </div>
-    </form>
 </div>
 
-
-
-<!--<
-    div class="text-center p-5 bg-light">
-    <h1 class="mb-3">Добредојде во <span class="text-primary">Luminé</span></h1>
-    <p>Регистрирај се и добиј <b>15% попуст</b> на следната нарачка!</p>
-
-    <form method="post" asp-action="Subscribe">
-        <div class="input-group mt-3 w-50 mx-auto">
-            <input type="email" name="email" class="form-control" placeholder="Внеси го твојот емаил" required />
-            <button type="submit" class="btn btn-primary">Прими попуст</button>
+<!-- New Arrivals Section -->
+<section class="container text-center mt-5 mb-5">
+    <h2 class="mb-4" style="color:#b22222;">NEW ARRIVALS</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/images/produkt1.jpg" class="img-fluid rounded shadow-sm" />
+            <p class="mt-2 fw-bold">Off Duty Eye Mask</p>
         </div>
-    </form>
+        <div class="col-md-4">
+            <img src="/images/produkt2.jpg" class="img-fluid rounded shadow-sm" />
+            <p class="mt-2 fw-bold">Medik8 Cristal Retinal 24</p>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/produkt3.jpg" class="img-fluid rounded shadow-sm" />
+            <p class="mt-2 fw-bold">Kora Vitamin C serum</p>
+        </div>
+    </div>
+</section>
+
+<!-- Extra Section (Example Testimonials / Newsletter) -->
+<section class="container text-center mt-5 mb-5">
+    <h2 class="mb-4">What Our Customers Say</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <blockquote class="blockquote">
+                <p>"Amazing skincare products, my skin feels so fresh!"</p>
+                <footer class="blockquote-footer">Ana</footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <blockquote class="blockquote">
+                <p>"The body care line is just perfect, highly recommend!"</p>
+                <footer class="blockquote-footer">Mila</footer>
+            </blockquote>
+        </div>
+        <div class="col-md-4">
+            <blockquote class="blockquote">
+                <p>"Fast delivery and great quality. Love it!"</p>
+                <footer class="blockquote-footer">Elena</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+<!-- Subscribe Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius:20px; background:#ffe6eb;">
+            <div class="modal-header border-0">
+                <h5 class="modal-title w-100 text-center">Welcome to Luminé</h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Subscribe with your email to get 15% discount</p>
+                <input type="email" class="form-control rounded-pill mb-3" placeholder="Enter your email" />
+                <button class="btn rounded-pill px-4" style="background:#f08080; color:white;">Subscribe</button>
+            </div>
+        </div>
+    </div>
 </div>
 
-    <form asp-action="Subscribe" method="post">
-    <input type="email" name="email" class="form-control" placeholder="Enter your email" required />
-    <button type="submit" class="btn btn-primary mt-2">Get 15% Off</button>
-</form>
-   -->
+<!-- JS for popup -->
+<script>document.addEventListener("DOMContentLoaded", function () {
+        var myModal = new bootstrap.Modal(document.getElementById('subscribeModal'));
+        myModal.show();
+    });</script>
+
+
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>Care for your skin<br />Care for your beauty</h1>
+        <a href="/Products" class="shop-btn">Shop Now</a>
+    </div>
+</div>

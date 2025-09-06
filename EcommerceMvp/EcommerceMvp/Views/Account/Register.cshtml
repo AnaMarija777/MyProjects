@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="auth-container">
+    <div class="auth-card">
+        <h2 class="text-center mb-4">Register</h2>
+        <form asp-action="Register">
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="Enter password" required />
+            </div>
+            <button type="submit" class="btn btn-auth w-100">Register</button>
+        </form>
+        <p class="text-center mt-3">
+            Already have an account? <a href="/Account/Login">Login</a>
+        </p>
+    </div>
+</div>
+

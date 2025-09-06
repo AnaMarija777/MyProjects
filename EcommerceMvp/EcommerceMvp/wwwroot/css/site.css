@@ -1,11 +1,16 @@
-﻿/* Општи стилови */
+﻿
+/* Позадина на целата страна */
 body {
-    font-family: 'Georgia', serif;
-    background-color: #fffafa;
-    color: #333;
     margin: 0;
     padding: 0;
+    font-family: 'Georgia', serif;
+    background: url('/images/pozadina.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
 }
+
 
 /* Navbar */
 .navbar {
@@ -41,7 +46,7 @@ body {
         color: #e6397f;
     }
 
-/* Welcome секција */
+/* Welcome sektion so email */
 .welcome-section {
     background-color: #ffe4e6;
     border-radius: 12px;
@@ -51,34 +56,189 @@ body {
     text-align: center;
 }
 
-    .welcome-section h1 {
-        font-family: 'Brush Script MT', cursive;
-        font-size: 2.5rem;
-        color: #6b2e53;
-        margin-bottom: 20px;
-    }
 
-    .welcome-section p {
-        font-size: 1.2rem;
-        margin-bottom: 20px;
-    }
 
-/* Input + Button */
-.input-group input {
-    border-radius: 20px 0 0 20px;
-    border: 1px solid #e6397f;
-    padding: 10px;
+/* Hero секција */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
 }
 
-.input-group button {
-    border-radius: 0 20px 20px 0;
-    background-color: #e6397f;
-    border: none;
+.hero-section {
+   
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/pozadina.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #2c2c2c;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+
+.hero-text {
+    padding-left: 50px;
+}
+
+
+
+.hero-text h1 {
+    font-family: 'Georgia', serif;
+    font-size: 48px;
+    color: #1a3d2f;
+    max-width: 500px;
+}
+
+.shop-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #f5a3b7;
     color: white;
-    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
     transition: 0.3s;
 }
 
-    .input-group button:hover {
-        background-color: #6b2e53;
+    .shop-btn:hover {
+        background-color: #e07a97;
     }
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/images/pozadina.jpg') no-repeat center center/cover;
+}
+
+.auth-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    width: 360px; 
+}
+
+.btn-auth {
+    background-color: #f5a3b7;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px; 
+    transition: 0.3s;
+}
+
+    .btn-auth:hover {
+        background-color: #e07a97;
+    }
+
+.form-control {
+    padding: 10px 12px;
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+    box-shadow: none !important;
+}
+.search-bar {
+    width: 300px; /* ширина на search */
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+    .search-bar input {
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        flex: 1;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .search-bar .btn-search {
+        background-color: #f5a3b7; /* истата розева како копчињата */
+        color: white;
+        border: none;
+        padding: 0 18px;
+        border-radius: 0 25px 25px 0;
+        transition: 0.3s;
+    }
+
+        .search-bar .btn-search:hover {
+            background-color: #e07a97;
+        }
+
+
+@media (max-width: 992px) {
+    .search-bar {
+        width: 100%;
+        margin: 10px 0; /* одвоен од останати елементи */
+    }
+
+    /* za produktite*/
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* секогаш 3 во ред */
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto; /* центрирај ја целата мрежа */
+        padding: 40px 20px;
+    }
+
+    .product-card {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        text-align: center;
+    }
+
+        .product-card img {
+            width: 100%;
+            height: 250px; /* иста висина за сите слики */
+            object-fit: cover; /* сликите да не се развлекуваат */
+            border-radius: 8px;
+        }
+
+        .product-card h5 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .product-card p {
+            font-size: 14px;
+            color: #666;
+            min-height: 40px; /* иста висина за опис */
+        }
+
+        .product-card .price {
+            font-weight: bold;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .product-card button {
+            background-color: #198754;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+            .product-card button:hover {
+                background-color: #157347;
+            }
